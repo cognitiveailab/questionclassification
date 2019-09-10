@@ -1,29 +1,14 @@
-## Repository for "Multi-class Hierarchical Question Classification for Multiple Choice Science Exams" (Xu et al., 2019).
+## Question Classification with the Aristo Reasoning Challenge (ARC) and the BERT-QC Model.
 
-This is the github repository for the paper "Multi-class Hierarchical Question Classification for Multiple Choice Science Exams" (Xu et al., 2019).  
+This is the github repository for the paper ["Multi-class Hierarchical Question Classification for Multiple Choice Science Exams" (Xu et al., 2019)](https://arxiv.org/abs/1908.05441).  
 
-This paper presents:
-1. A new question classification dataset using the 7,787 Aristo Reasoning Challenge (ARC) questions, drawn from elementary and middle school science exams in the United States.
-2. A hierarchical taxonomy of over 400 detailed question classes for these science exam questions, developed based on exam syllabi, study guides, and a detailed data-driven analysis of the ARC questions. 
-3. A BERT-based question classification model that performs well across 4 benchmark question classification datasets, matching or exceeding state-of-the-art performance on each dataset
+The contributions of this work are:
+1. A new, large, detailed question classification dataset providing question classification labels for the [7,787 Aristo Reasoning Challenge (ARC) questions](http://data.allenai.org/arc/), which are drawn from elementary and middle school (3rd through 9th grade) science exams in the United States.
+2. A hierarchical taxonomy of over 400 detailed question classes and problem domains for these science exam questions, developed based on exam syllabi, study guides, and a detailed data-driven analysis of the ARC questions. 
+3. A BERT-based question classification model that performs well across 4 benchmark question classification datasets, matching or exceeding state-of-the-art performance on each dataset.
 4. A BERT-based QA method that incorporates question classification information using query expansion, which is fast and easy to implement. 
-5. The paper also includes a section on performing automated error analyses using these detailed question classification labels. 
+5. The paper also includes a section on performing fast, detailed, and automated error analyses using these detailed question classification labels. 
 
-## Paper
-
-### Paper
-The paper is available at: https://arxiv.org/abs/1908.05441
-
-### Citation
-If you use this work, please cite as (BibTeX):
-```
-@article{xu2019multi,
-  title={Multi-class Hierarchical Question Classification for Multiple Choice Science Exams},
-  author={Xu, Dongfang and Jansen, Peter and Martin, Jaycie and Xie, Zhengnan and Yadav, Vikas and Madabushi, Harish Tayyar and Tafjord, Oyvind and Clark, Peter},
-  journal={arXiv preprint arXiv:1908.05441},
-  year={2019}
-}
-```
 
 ## Data
 
@@ -51,6 +36,23 @@ https://github.com/cognitiveailab/questionclassification/tree/master/qc
 ### Question Answering using Question Classification (QC+QA)
 Code to replicate the QC+QA experiments (Section 5, Figure 2) is available here: 
 https://github.com/cognitiveailab/questionclassification/tree/master/qc+qa
+
+## Paper
+
+### Paper
+The paper is available at: https://arxiv.org/abs/1908.05441
+
+### Citation
+If you use this work, please cite as (BibTeX):
+```
+@article{xu2019multi,
+  title={Multi-class Hierarchical Question Classification for Multiple Choice Science Exams},
+  author={Xu, Dongfang and Jansen, Peter and Martin, Jaycie and Xie, Zhengnan and Yadav, Vikas and Madabushi, Harish Tayyar and Tafjord, Oyvind and Clark, Peter},
+  journal={arXiv preprint arXiv:1908.05441},
+  year={2019}
+}
+```
+
 
 ## Related Links
 
